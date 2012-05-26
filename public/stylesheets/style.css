@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#loader {
+	width:0px;
+	height:10px;
+	background-color:#ccc;
+	visibility:hidden;
+}
+
+#isoWorldContainer {
+
+}
+#tileAndObjectsDummy {
+	left: -489px; 
+	top: -31px; 
+	
+}

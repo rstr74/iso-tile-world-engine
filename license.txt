@@ -1,0 +1,11 @@
+ENGINE:
+The  jQuery plugin jquery.isoWorldEngine.1.0.js is Dual licensed under the MIT and GPL licenses.
+ *	http://en.wikipedia.org/wiki/MIT_License
+ *	http://en.wikipedia.org/wiki/GNU_General_Public_License
+
+GRAPHICS:
+Sprite/Tile Graphics by: Yar
+see:
+http://opengameart.org/content/isometric-64x64-outside-tileset
+this sprite sheet is licensed under:
+http://creativecommons.org/licenses/by/3.0/
