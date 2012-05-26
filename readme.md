@@ -1,4 +1,6 @@
-This repo contains an isometric game engine. You can implement it as a jQuery plugin.The root folder of this project contains a node.js server script that requires express. When installed it loads TMX xml maps from the open source tile editor "Tiled". For downloading and information about this editor see http://www.mapeditor.org/
+This repo contains an isometric game engine Beta 1.0. You can implement it as a jQuery plugin.
+The root folder of this project contains a node.js server script that requires express. When installed it loads TMX xml maps from the open source tile editor "Tiled". For downloading and information about this editor see http://www.mapeditor.org/
+You can see a demo at http://rstr74.github.com/iso-tile-world-engine/
 
 To install node.js dependencies automaticly please try node package manager, try... 
 npm install
