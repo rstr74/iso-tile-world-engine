@@ -32,7 +32,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block;
+	display: block;
 }
 
 ol, ul {
@@ -375,6 +375,21 @@ Full-Width Styles
 }
 
 
+#loader {
+	width:0px;
+	height:10px;
+	background-color:#ccc;
+	visibility:hidden;
+}
+
+#isoWorldContainer {
+
+}
+#tileAndObjectsDummy {
+	left: -489px; 
+	top: -31px; 
+	
+}
 
 /*******************************************************************************
 Small Device Styles
