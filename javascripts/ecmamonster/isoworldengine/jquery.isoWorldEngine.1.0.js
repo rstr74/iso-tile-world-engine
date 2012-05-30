@@ -13,7 +13,7 @@
 
 (function($) {
 	$.fn.isoWorldEngine = function(o) {
-
+	
 		this.constants = {
 			extensionName : 'IsoWorldEngine',
 			author : "ecmaMonster"
@@ -27,6 +27,8 @@
 		 * @returns {void} nothing
 		 */
 		this.init = function(o) {
+		
+			o.container=$(this).attr("id").replace("#","");
 			opts = $.extend(true, {}, $.fn.isoWorldEngine.defaults, o);
 			if(!o.tmxFilePath) {
 				log("No tile editor TMX filePath provided, now using default at world/map.tmx ", "WARNING");
