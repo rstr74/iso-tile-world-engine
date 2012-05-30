@@ -1,5 +1,5 @@
 $(function() {
-	$("isoWorld").isoWorldEngine({
+	$("#isoWorldContainer").isoWorldEngine({
 		logging : false,
 		sound : false,
 		cropH : 10,
@@ -7,18 +7,17 @@ $(function() {
 		fps : 60,
 		showObjectBorders : false,
 		showTicker:true,
-		container : "isoWorldContainer",
 		tmxFilePath : "world/",
 		tmxFile : "map.tmx"
 	});
 
-	$("isoWorld").isoWorldEngine.onReady = function() {
+	$("#isoWorldContainer").isoWorldEngine.onReady = function() {
 	};
 	var dx = 0;
 	var speed = 5;
 	var keyControl = new $.fn.isoWorldEngine.KeyControl();
 	$("#tileAndObjectsDummy").css("top", 40);
-	$("isoWorld").isoWorldEngine.update = function() {
+	$("#isoWorldContainer").isoWorldEngine.update = function() {
 		var direction = keyControl.getDirection();
 		//$.fn.isoWorldEngine.drawText(10, 40, direction);
 

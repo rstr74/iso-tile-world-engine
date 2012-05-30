@@ -6,7 +6,7 @@
 You can implement it like this:
 ```javascript
 $(function() {
-	$("isoWorld").isoWorldEngine({
+	$("#isoWorldContainer").isoWorldEngine({
 		logging : false,
 		sound : false,
 		cropH : 10,
@@ -14,7 +14,6 @@ $(function() {
 		fps : 100,
 		showObjectBorders : false,
 		showTicker:true,
-		container : "isoWorldContainer",
 		tmxFilePath : "world/",
 		tmxFile : "map.tmx"
 	});
