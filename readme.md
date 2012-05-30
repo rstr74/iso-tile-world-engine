@@ -61,7 +61,9 @@ For the use of sound, you can install the jplayer in the javascript folder and a
 Most of the settings are in main.js in the root of the javascripts folder.
 
 ####Known issues:####
-- In Chrome, when frame ticker is set off, the nested objects will not be updated every frame. In firefox this seems no problem.
+In Chrome, when frame ticker is set off, 
+the nested objects will not be updated every frame.
+In firefox this seems no problem.
 
 ####To do:#####
 - Movable Sprites API
