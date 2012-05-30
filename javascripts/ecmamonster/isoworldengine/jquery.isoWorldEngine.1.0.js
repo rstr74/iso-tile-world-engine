@@ -344,14 +344,25 @@
 	}
 
 	function addLayerDiv(target, divId, width, height, style, nocanvas) {
-
+		console.log($("#" + opts.container));
 		var target = target;
-		$("#" + opts.container).css("background-color", opts.isoWorldDummyBackgroundColor);
+		console.log(target);
 		$(target).css("opacity", 1);
 		$(target).css("position", "relative");
-		$("#" + opts.container).css("overflow", "hidden");
-		$("#" + opts.container).css("width", ((-opts.cropX + opts.cropW) * opts.isoWorldTileWidth) + "px");
-		$("#" + opts.container).css("height", ((-opts.cropY + opts.cropH) * opts.isoWorldTileHeight) + "px");
+		
+		
+		var container=$("#" + opts.container);		
+		var w=parseInt(((-opts.cropX + opts.cropW) * (opts.isoWorldTileWidth)));
+		var h=parseInt(((-opts.cropY + opts.cropH) * (opts.isoWorldTileHeight)));
+	
+		container.css(
+			{	backgroundColor:opts.isoWorldDummyBackgroundColor,
+				width:w,
+				height:h,
+				overflow:"hidden"				
+			});
+		
+			
 
 		if(!nocanvas) {
 			nocanvas = "your browser does not support the canvas tag"
