@@ -3,6 +3,8 @@
  
 <p>This repo contains a html5 / javascript isometric game engine.</p> 
 
+You can see a demo [here](http://rstr74.github.com/iso-tile-world-engine/)
+
 You can implement it like this:
 ```javascript
 $(function() {
