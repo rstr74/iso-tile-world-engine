@@ -373,10 +373,6 @@
 		});
 		target.append(div);
 
-		//div[0].height = (opts.isoWorldTileHeight * opts.isoWorldTileHCount);
-		//div[0].width = (opts.isoWorldTileWidth * opts.isoWorldTileWCount);
-
-		div.css("position", "absolute");
 		div.css("height", (opts.isoWorldTileHeight * opts.isoWorldTileHCount) + "px");
 		div.css("width", (opts.isoWorldTileWidth * opts.isoWorldTileWCount) + "px");
 		div.css("opacity", 1);
